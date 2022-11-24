@@ -11,24 +11,24 @@
         android:id="@+id/btn_transaction"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="115dp"
+        android:layout_marginStart="90dp"
         android:layout_marginTop="100dp"
         android:text="View Transactions" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btn_sendMoney"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="145dp"
-        android:layout_marginTop="550dp"
+        android:layout_marginStart="115dp"
+        android:layout_marginTop="320dp"
         android:text="Send money" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/btn_balance"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="140dp"
-        android:layout_marginTop="320dp"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="550dp"
         android:text="View Balance" />
 
 </FrameLayout>
