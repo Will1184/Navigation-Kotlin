@@ -62,7 +62,10 @@
         android:id="@+id/fragmentConfirmation"
         android:name="com.android.navigation.FragmentConfirmation"
         android:label="fragment_confirmation"
-        tools:layout="@layout/fragment_confirmation" />
+        tools:layout="@layout/fragment_confirmation" >
+        <argument android:name="name"
+            app:argType="string" />
+    </fragment>
     <fragment
         android:id="@+id/fragmentSpecifyAmount"
         android:name="com.android.navigation.FragmentSpecifyAmount"
